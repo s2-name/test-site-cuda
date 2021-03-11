@@ -1,0 +1,104 @@
+@media (max-width: 1316px){
+	.comments{
+		display: block;
+	}
+	.comment-ava{
+		width: 10%;
+	}
+}
+@media (max-width: 1158px) {
+	.works{
+		/*display: block;*/
+		flex-wrap: wrap;
+	}
+	.work-img{
+		width: 50%;
+		margin: 0 50%;
+		transform: translateX(-50%);
+	}
+	.work-img:hover{
+		width: 55%;
+	}
+}
+@media (max-width: 1062px) {
+	.team-cards{
+		/*display: block;*/
+	}
+	.team-card > img{
+		width: 45%;
+	}
+	.team-card-title{
+		margin: 0;
+	}
+	.team-card-contact{
+		margin: 0;
+	}
+}
+@media (max-width: 882px){
+	.skills-progressBars{
+		flex-wrap: wrap;
+	}
+	.team-cards{
+		flex-wrap: wrap;
+	}
+	.team-card{
+		width: 50%;
+	}
+	.team-card > img{
+		width: 25%;
+	}
+	.footer{
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 722px){
+	.cards{
+		flex-wrap: wrap;
+	}
+	.card{
+		width: 50%;
+	}
+	.card > img{
+		width: 35%;
+	}
+}
+@media (max-width: 540px){
+	.header-title, .services-title, .team-title, .feedback-title{
+		font-size: 30px;
+	}
+	.header-button{
+		font-size: 12px;
+		padding: 10px;
+	}
+	.services-subtitle{
+		font-size: 14px;
+	}
+	.team-card > img{
+		display: none;
+	}
+	.comment-content{
+		margin: 5px;
+	}
+	.comment-name{
+		font-size: 20px;
+		margin: 5px 0 0 0;
+	}
+	.comment-ava{
+		display: none;
+	}
+	form > button{
+		margin: 15% 50%;
+		padding: 10px;
+		font-size: 12px;
+
+	}
+}
+@media (min-height: 1366px) {
+	.header, .services, .team, .skills, .feedback, .contact, .header-wraper, .services-wraper, .team-wraper, .skills-wraper, .feedback-wraper, .contact-wraper{
+		height: 50vh;
+	}
+	.portfolio, .portfolio-wraper{
+		height: 100vh;
+	}
+
+}
