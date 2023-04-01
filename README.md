@@ -1,2 +1,2 @@
 # test-site-cuda
-[preview](http://steave208.tk/)
+[preview](http://s2-name.github.io/test-site-cuda/)
